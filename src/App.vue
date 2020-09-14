@@ -1,3 +1,4 @@
+// to start the app type npm run serve
 <template>
   <div id="app">
     <div id="nav">
