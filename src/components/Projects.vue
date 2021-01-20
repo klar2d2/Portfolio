@@ -6,12 +6,24 @@
 </template>
 
 <script>
+
 export default {
   name: "Projects",
   props: {
     msg: String,
     img: String,
-    alt: String
+    alt: String,
+    link: String
   }
 };
 </script>
+
+<style lang="scss">
+@import 'src/assets/sass/style.scss';
+
+  .projects {
+    width: 100%;
+    background-color: $color-white;
+    color: $color-dark;
+  }
+</style>
